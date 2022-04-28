@@ -1,11 +1,11 @@
-For phase 2, I chose Kubernetes as the container orechestration tool. I chose Kubernetes because it's a popular
-open-source system that helps automate containerized appplications. Some of its features include automated 
-rollouts and rollbacks, service discovery and loadbalancing, horizontal scaling, self-healing, and secret and
-configuration management. Kubenetes can be deployed anywhere (on-prem, cloud, or hybrid). 
+For phase 2, I chose Kubernetes as the container orchestration tool. I chose Kubernetes because it's a popular
+open-source system that helps automate containerized applications. Some of its features include automated 
+rollouts and rollbacks, service discovery and load balancing, horizontal scaling, self-healing, and secret and
+configuration management. Kubernetes can be deployed anywhere (on-prem, cloud, or hybrid). 
 There are many lightweight versions of Kubernetes such as K3s and minikube, but since I am to implement
 a local single node version, I chose minikube.
 
-For this I visited their website and followed the steps to download it for my particular platform. I simply ran
+For this I visited their website and followed the steps to download it for my platform. I simply ran
 the following two commands to install minikube:
 ```
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-latest.x86_64.rpm
